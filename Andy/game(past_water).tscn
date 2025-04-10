@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=4 uid="uid://bncrgteep43q1"]
+[gd_scene load_steps=57 format=4 uid="uid://bncrgteep43q1"]
 
 [ext_resource type="PackedScene" uid="uid://b64q7f76oh3mn" path="res://Chiara/TreeLog.tscn" id="1_2bwu1"]
 [ext_resource type="PackedScene" uid="uid://cj2h26ls141qf" path="res://Riley/CargoBox.tscn" id="2_e8yyq"]
@@ -19,8 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://dxsedgdoe3w3d" path="res://Andy/signal.tscn" id="17_741l6"]
 [ext_resource type="PackedScene" uid="uid://2gv276l2p1uf" path="res://Riley/GlowingBarrel.tscn" id="18_sspqy"]
 [ext_resource type="PackedScene" uid="uid://15so6a73xnba" path="res://Rongyu Liu/beach_onepiece.tscn" id="19_u6iib"]
-[ext_resource type="PackedScene" uid="uid://if3f5lyupjxr" path="res://Andy/chest.tscn" id="21_lxcqj"]
-[ext_resource type="PackedScene" uid="uid://brnale7hmas1w" path="res://Andy/quest_ui.tscn" id="23_ceykm"]
+[ext_resource type="PackedScene" uid="uid://if3f5lyupjxr" path="res://Andy/chest.tscn" id="23_ceykm"]
 [ext_resource type="PackedScene" uid="uid://brol5h8bq6u43" path="res://Andy/ui Amulet.tscn" id="24_1naki"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_51a85"]
@@ -892,9 +891,7 @@ mesh = SubResource("BoxMesh_kxmlo")
 [node name="Beach_onepiece" parent="." instance=ExtResource("19_u6iib")]
 transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, -9.92786, 0)
 
-[node name="Chest" parent="." instance=ExtResource("21_lxcqj")]
+[node name="Chest" parent="." instance=ExtResource("23_ceykm")]
 transform = Transform3D(-0.0688512, 0, -0.997627, 0, 1, 0, 0.997627, 0, -0.0688512, 4.14363, 7.61585, -11.2289)
-
-[node name="QuestUI" parent="." instance=ExtResource("23_ceykm")]
 
 [node name="Control" parent="." instance=ExtResource("24_1naki")]
